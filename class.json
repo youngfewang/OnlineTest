@@ -1,0 +1,30 @@
+{
+    "classes":[
+        {
+            "name": "YFFeedbackViewController",
+            "superclass": "UIViewController",
+            "description": "它是一个视图控制器，用户可以在这个控制器上反馈App使用感受"
+        },
+        {
+            "name": "YFFeedbackManager",
+            "superclass": "NSObject",
+            "description": "它是视图控制器管理类，使用它可以初始化用户反馈视图",
+            "methods": [
+                {
+                    "type": "Class Method"
+                    "name": "share",
+                    "description": "单例初始化方法"
+                    "arguments": [],
+                    "returnType": "YFFeedbackManager"
+                },
+                {
+                    "type": "Method"
+                    "name": "getFeedbackViewController",
+                    "description": "获取用户反馈视图控制器对象"
+                    "arguments": [],
+                    "returnType": "YFFeedbackViewController"
+                }
+            ]
+        }
+    ]
+}
